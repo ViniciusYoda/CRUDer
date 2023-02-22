@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../components/Header/header';
+import Header from '../../components/Header/Header';
 import './post.css';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";

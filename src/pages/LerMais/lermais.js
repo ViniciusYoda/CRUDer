@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
-import Header from '../../components/Header/header'
+import Header from '../../components/Header/Header'
 
 function LerMais() {
 
@@ -13,7 +13,7 @@ function LerMais() {
       .then((response) => {
         setLermais(response.data)
       })
-  }, [])
+  })
 
   return (
 

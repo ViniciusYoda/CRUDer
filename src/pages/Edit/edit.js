@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import axios from 'axios'
-import Header from '../../components/Header/header'
+import Header from '../../components/Header/Header'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -38,7 +38,7 @@ function Edit() {
         reset(response.data)
       })
 
-  }, [])
+  })
 
   return (
     <div>
